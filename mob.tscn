@@ -55,7 +55,8 @@ gravity_scale = 2.66454e-15
 script = ExtResource("1_ipgna")
 metadata/_edit_group_ = true
 
-[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." groups=["mobs"]]
+scale = Vector2(0.75, 0.75)
 sprite_frames = SubResource("SpriteFrames_kpwh7")
 animation = &"walk"
 frame_progress = 0.449603
